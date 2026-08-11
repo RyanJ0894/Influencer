@@ -16,7 +16,8 @@
       <a href="#" class="nav-logo">MARCO</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#cause">My Cause</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#fitness">Fitness</a></li>
         <li><a href="#interests">Lifestyle</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Work With Me</a></li>
@@ -27,7 +28,8 @@
     </div>
     <ul class="nav-mobile" id="nav-mobile">
       <li><a href="#about">About</a></li>
-      <li><a href="#cause">My Cause</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#fitness">Fitness</a></li>
       <li><a href="#interests">Lifestyle</a></li>
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#contact">Work With Me</a></li>
@@ -36,14 +38,17 @@
 
   <!-- HERO -->
   <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/marco-waterfall-back.jpg" alt="Marco overlooking a waterfall and the sea" class="hero-bg-img" />
+    </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-tag">Surfer · Chef · Adventurer · Advocate</p>
+      <p class="hero-tag">Surfer · Athlete · Chef · Adventurer · Advocate</p>
       <h1 class="hero-title">Live Wild,<br />Live Well.</h1>
-      <p class="hero-sub">Chasing waves, cooking clean, and fighting for the ocean — one day at a time.</p>
+      <p class="hero-sub">Chasing waves, training hard, cooking clean, and fighting for the ocean — one day at a time.</p>
       <div class="hero-cta">
         <a href="#about" class="btn btn-primary">Meet Marco</a>
-        <a href="#cause" class="btn btn-outline">My Mission</a>
+        <a href="#mission" class="btn btn-outline">My Mission</a>
       </div>
     </div>
     <div class="hero-scroll">
@@ -57,9 +62,11 @@
     <div class="container about-grid">
       <div class="about-image">
         <div class="about-img-wrap">
-          <div class="about-img-placeholder">
-            <i class="fas fa-person-surfing"></i>
-          </div>
+          <img
+            src="images/marco-cliff-wide.jpg"
+            alt="Marco standing on a coastal cliff overlooking the ocean"
+            class="about-photo"
+          />
           <div class="about-badge">
             <span class="badge-num">180K+</span>
             <span class="badge-lbl">Followers</span>
@@ -69,9 +76,9 @@
       <div class="about-text">
         <span class="section-tag">About Me</span>
         <h2 class="section-title">Hey, I'm Marco.</h2>
-        <p>I'm a 29-year-old surfer, home chef, and self-proclaimed ocean obsessive based out of San Diego, CA. Growing up along the coast, the Pacific wasn't just my playground — it was my classroom.</p>
-        <p>After spending years in a corporate marketing career that left me feeling disconnected, I quit my job, bought a one-way ticket to Portugal, and surfed my way back to myself. That trip changed everything.</p>
-        <p>Today I share my journey of intentional living — sustainable food, mindful fitness, slow travel, and the relentless push to protect the ocean we all depend on.</p>
+        <p>I'm a 29-year-old surfer, athlete, and self-proclaimed ocean obsessive based out of San Diego, CA. Growing up along the coast, the Pacific wasn't just my playground — it was my classroom.</p>
+        <p>After years in a corporate marketing career that left me feeling disconnected and out of shape, I quit my job, bought a one-way ticket to Portugal, and surfed and trained my way back to myself. That trip changed everything.</p>
+        <p>Today I share my journey of intentional living — sustainable food, functional fitness, mindful movement, slow travel, and the relentless push to protect the ocean we all depend on.</p>
         <div class="about-stats">
           <div class="stat">
             <span class="stat-num">6+</span>
@@ -96,32 +103,85 @@
     </div>
   </section>
 
-  <!-- CAUSE -->
-  <section class="section cause" id="cause">
+  <!-- MISSION (cause + fitness combined) -->
+  <section class="section mission" id="mission">
     <div class="container">
-      <div class="cause-header">
-        <span class="section-tag light">My Cause</span>
-        <h2 class="section-title light">The Ocean Can't Wait.</h2>
-        <p class="cause-intro">Over 8 million metric tons of plastic enter our oceans every year. I'm not okay with that — and I don't think you are either.</p>
+      <div class="mission-header">
+        <span class="section-tag light">My Mission</span>
+        <h2 class="section-title light">Strong Body. Clean Ocean. Clear Mind.</h2>
+        <p class="mission-intro">My platform sits at the intersection of physical fitness, conscious living, and ocean advocacy. Taking care of your body and taking care of the planet aren't separate goals — they're the same one.</p>
       </div>
-      <div class="cause-cards">
-        <div class="cause-card">
-          <div class="cause-icon"><i class="fas fa-water"></i></div>
-          <h3>Beach Cleanups</h3>
-          <p>Every month I organize local cleanup events across Southern California. Join us — no experience needed, just a pair of gloves and good vibes.</p>
-          <a href="#contact" class="cause-link">Get Involved →</a>
+      <div class="mission-cards">
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-dumbbell"></i></div>
+          <h3>Move With Purpose</h3>
+          <p>Fitness isn't about aesthetics — it's about capability. I share functional training, outdoor workouts, and movement routines designed to keep you strong for the adventures that matter most.</p>
+          <a href="#fitness" class="mission-link">See My Training →</a>
         </div>
-        <div class="cause-card featured">
-          <div class="cause-icon"><i class="fas fa-seedling"></i></div>
-          <h3>Blue Future Fund</h3>
-          <p>5% of every brand partnership I sign goes directly to ocean conservation non-profits. Together with my community, we've raised over $80,000.</p>
-          <a href="#contact" class="cause-link">Donate →</a>
+        <div class="mission-card featured">
+          <div class="mission-icon"><i class="fas fa-water"></i></div>
+          <h3>Protect The Ocean</h3>
+          <p>Over 8 million metric tons of plastic enter our oceans every year. Monthly beach cleanups, the Blue Future Fund, and plastic-free living tips — because the ocean gives us everything.</p>
+          <a href="#contact" class="mission-link">Get Involved →</a>
         </div>
-        <div class="cause-card">
-          <div class="cause-icon"><i class="fas fa-fish"></i></div>
-          <h3>Plastic-Free Living</h3>
-          <p>I share weekly tips, swaps, and real-talk on reducing single-use plastic — because small changes at scale create massive impact.</p>
-          <a href="#interests" class="cause-link">See My Tips →</a>
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-seedling"></i></div>
+          <h3>Live Intentionally</h3>
+          <p>Slow travel, whole food cooking, and a life built around experience over consumption. 5% of every brand deal goes directly to ocean conservation non-profits — $80K raised and counting.</p>
+          <a href="#interests" class="mission-link">How I Live →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FITNESS SECTION -->
+  <section class="section fitness" id="fitness">
+    <div class="container">
+      <div class="fitness-grid">
+        <div class="fitness-text">
+          <span class="section-tag">Fitness</span>
+          <h2 class="section-title">Train for the<br />Life You Want.</h2>
+          <p>I don't train to look a certain way. I train so I can paddle out in heavy surf, hike to remote waterfalls, carry my own gear, and feel fully alive in every environment I put myself in.</p>
+          <p>My approach is functional, outdoor-first, and built around movement patterns that translate directly to real-world performance — calisthenics, breathwork, mobility, and cold exposure.</p>
+          <div class="fitness-pillars">
+            <div class="pillar">
+              <i class="fas fa-person-running"></i>
+              <div>
+                <strong>Functional Movement</strong>
+                <span>Train for performance, not just appearance</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-wind"></i>
+              <div>
+                <strong>Breathwork & Recovery</strong>
+                <span>Cold plunge, Wim Hof, and active rest</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-person-surfing"></i>
+              <div>
+                <strong>Sport-Specific Training</strong>
+                <span>Surf fitness, grip strength, balance work</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-sun"></i>
+              <div>
+                <strong>Outdoor-First Philosophy</strong>
+                <span>The gym is a backup — nature is the gym</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Train With Marco</a>
+        </div>
+        <div class="fitness-photos">
+          <div class="fitness-photo-main">
+            <img src="images/marco-stretch-arms.jpg" alt="Marco stretching with arms raised on a coastal cliff" />
+          </div>
+          <div class="fitness-photo-secondary">
+            <img src="images/marco-side-stretch.jpg" alt="Marco doing a side stretch on a cliff overlooking the sea" />
+          </div>
         </div>
       </div>
     </div>
@@ -151,7 +211,7 @@
           </div>
           <div class="interest-body">
             <h3>Plant-Based Cooking</h3>
-            <p>I went plant-based three years ago and never looked back. My kitchen is where sustainability meets flavor — simple, whole, and deeply satisfying.</p>
+            <p>I went plant-based three years ago and never looked back. Fueling hard training sessions and ocean sessions on whole, clean food — and it tastes incredible.</p>
             <div class="tags"><span>Whole Foods</span><span>Meal Prep</span><span>Zero Waste</span></div>
           </div>
         </div>
@@ -161,8 +221,8 @@
             <i class="fas fa-dumbbell"></i>
           </div>
           <div class="interest-body">
-            <h3>Fitness & Movement</h3>
-            <p>I train to perform, not just to look good. Calisthenics, yoga, and beach workouts keep me functional and feeling good in my body year-round.</p>
+            <h3>Movement & Training</h3>
+            <p>Calisthenics, cliff-side workouts, yoga, and cold plunges. Fitness is the foundation of everything else I do — it's how I show up fully for every experience.</p>
             <div class="tags"><span>Calisthenics</span><span>Yoga</span><span>Cold Plunge</span></div>
           </div>
         </div>
@@ -173,7 +233,7 @@
           </div>
           <div class="interest-body">
             <h3>Slow Travel</h3>
-            <p>I don't do tourist traps. I stay long enough to have a local grocery store, a favorite café, and a friend to call. Slow travel changes you.</p>
+            <p>I don't do tourist traps. I stay long enough to have a local grocery store, a favorite trail, and a friend to call. Slow travel changes you.</p>
             <div class="tags"><span>Off-the-Beaten-Path</span><span>Eco Stays</span><span>Van Life</span></div>
           </div>
         </div>
@@ -188,42 +248,55 @@
       <span class="section-tag">Content</span>
       <h2 class="section-title">Latest From The Feed.</h2>
       <div class="gallery-grid">
-        <div class="gallery-item g1">
+
+        <div class="gallery-item">
+          <img src="images/marco-cliff-wide.jpg" alt="Marco on a coastal cliff" class="gallery-photo" />
           <div class="gallery-overlay">
             <i class="fab fa-instagram"></i>
-            <p>Morning session at Blacks Beach 🌊</p>
+            <p>Clifftop morning session 🌊</p>
           </div>
         </div>
-        <div class="gallery-item g2">
+
+        <div class="gallery-item">
+          <img src="images/marco-stretch-arms.jpg" alt="Marco stretching on the coast" class="gallery-photo" />
           <div class="gallery-overlay">
             <i class="fab fa-instagram"></i>
-            <p>Spicy mango chickpea bowl 🥭</p>
+            <p>Post-surf mobility work 🙌</p>
           </div>
         </div>
-        <div class="gallery-item g3">
+
+        <div class="gallery-item">
+          <img src="images/marco-side-stretch.jpg" alt="Marco side stretching on a cliff" class="gallery-photo" />
           <div class="gallery-overlay">
             <i class="fab fa-instagram"></i>
-            <p>Beach cleanup — 200 lbs removed 🤝</p>
+            <p>Outdoor training — no gym needed 💪</p>
           </div>
         </div>
-        <div class="gallery-item g4">
+
+        <div class="gallery-item">
+          <img src="images/marco-waterfall-blue.jpg" alt="Marco at a waterfall" class="gallery-photo" />
           <div class="gallery-overlay">
             <i class="fab fa-instagram"></i>
-            <p>Lisbon by van, no plan needed 🚐</p>
+            <p>Found this waterfall on mile 14 🌿</p>
           </div>
         </div>
-        <div class="gallery-item g5">
+
+        <div class="gallery-item">
+          <img src="images/marco-waterfall-full.jpg" alt="Marco at a coastal waterfall" class="gallery-photo" />
           <div class="gallery-overlay">
             <i class="fab fa-instagram"></i>
-            <p>Cold plunge + breathwork ritual ❄️</p>
+            <p>Worth every step of that trail 🏔️</p>
           </div>
         </div>
-        <div class="gallery-item g6">
+
+        <div class="gallery-item">
+          <img src="images/marco-waterfall-back.jpg" alt="Marco overlooking a waterfall panorama" class="gallery-photo" />
           <div class="gallery-overlay">
             <i class="fab fa-instagram"></i>
-            <p>Sunset reef session, Bali 🏄</p>
+            <p>Some places just put things in perspective 🌍</p>
           </div>
         </div>
+
       </div>
       <div class="gallery-cta">
         <a href="#" class="btn btn-primary">Follow on Instagram</a>
@@ -238,21 +311,21 @@
       <h2 class="section-title">What People Are Saying.</h2>
       <div class="testimonials-grid">
         <div class="testimonial">
-          <p class="quote">"Marco's cleanup events completely changed how I see my relationship with the beach. I've been a regular volunteer for 8 months now."</p>
+          <p class="quote">"Marco's training approach completely changed how I move. I stopped chasing the mirror and started training for my life. Best decision I ever made."</p>
           <div class="testimonial-author">
             <div class="author-avatar"><i class="fas fa-user"></i></div>
-            <div><strong>Jamie R.</strong><span>Cleanup Volunteer, San Diego</span></div>
+            <div><strong>Jamie R.</strong><span>Community Member, San Diego</span></div>
           </div>
         </div>
         <div class="testimonial">
-          <p class="quote">"I've tried so many plant-based recipes and Marco's are the only ones that actually taste like real food. My family doesn't even notice it's vegan."</p>
+          <p class="quote">"I've tried so many plant-based recipes and Marco's are the only ones that actually fuel a real workout. My energy is through the roof."</p>
           <div class="testimonial-author">
             <div class="author-avatar"><i class="fas fa-user"></i></div>
             <div><strong>Priya S.</strong><span>Community Member</span></div>
           </div>
         </div>
         <div class="testimonial">
-          <p class="quote">"Partnering with Marco was one of the best brand decisions we made. His audience is engaged, values-driven, and incredibly loyal."</p>
+          <p class="quote">"Partnering with Marco was one of the best brand decisions we made. His audience is engaged, values-driven, and deeply loyal to what he stands for."</p>
           <div class="testimonial-author">
             <div class="author-avatar"><i class="fas fa-user"></i></div>
             <div><strong>Derek L.</strong><span>Brand Partner, EcoGear Co.</span></div>
@@ -268,7 +341,7 @@
       <div class="contact-text">
         <span class="section-tag">Work With Me</span>
         <h2 class="section-title">Let's Create Something Real.</h2>
-        <p>I partner with brands that align with my values — sustainability, wellness, and authentic living. If that sounds like you, I'd love to talk.</p>
+        <p>I partner with brands that align with my values — sustainability, fitness, wellness, and authentic living. If that sounds like you, I'd love to talk.</p>
         <div class="contact-list">
           <div class="contact-item">
             <i class="fas fa-envelope"></i>
@@ -293,6 +366,7 @@
           <option value="" disabled selected>Inquiry Type</option>
           <option>Brand Partnership</option>
           <option>Sponsored Content</option>
+          <option>Fitness Collaboration</option>
           <option>Event / Speaking</option>
           <option>Media / Press</option>
           <option>Other</option>
@@ -313,7 +387,8 @@
       </div>
       <div class="footer-links">
         <a href="#about">About</a>
-        <a href="#cause">Cause</a>
+        <a href="#mission">Mission</a>
+        <a href="#fitness">Fitness</a>
         <a href="#interests">Lifestyle</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
